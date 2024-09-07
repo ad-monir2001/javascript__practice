@@ -1,6 +1,7 @@
 function vowelCounter(sentence) {
   let vowels = [];
-  for (letter of sentence) {
+  let s = sentence.toLowerCase();
+  for (letter of s) {
     if (
       letter === 'a' ||
       letter === 'e' ||
@@ -16,4 +17,4 @@ function vowelCounter(sentence) {
   console.log(numberOfVowel);
 }
 
-vowelCounter('Write a function to count the number of vowels in a string');
+vowelCounter('WrIte a function to count the number of vowels in a string');
