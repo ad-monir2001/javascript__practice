@@ -15,6 +15,7 @@ function make_avg(number) {
     sum += a;
   }
   let average = sum / number.length;
+  console.log(sum);
   console.log(average);
 }
 
